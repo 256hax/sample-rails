@@ -6,9 +6,11 @@
 
 # Ignore bundler config.
 /.bundle
+/vendor/bundle
 
 # Ignore the default SQLite database.
-/db/*.sqlite3
+# Push to GitHub for out-of-the-box!
+#/db/*.sqlite3
 /db/*.sqlite3-journal
 
 # Ignore all logfiles and tempfiles.
@@ -28,4 +30,9 @@
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
-/config/master.key
+# Push to GitHub for out-of-the-box!
+#/config/master.key
+
+
+# Mac
+.DS_Store
